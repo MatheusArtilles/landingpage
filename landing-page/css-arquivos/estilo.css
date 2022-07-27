@@ -1,0 +1,140 @@
+
+body {
+	background-color: rgb(28, 28, 28);
+	color: #fff;
+	font-family: 'BatmanForeverAlternate';
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 15px;
+
+
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+#title {
+	flex-direction: column;
+	line-height: 10px;
+}
+
+li{
+	display: inline-block;
+	margin: 20px;
+}
+#the{
+	color: rgb(255, 255, 0);
+}
+
+#batman {
+	color: rgb(255, 0, 0);
+}
+
+h1 {
+	font-weight: 200;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+h2 {
+	font-size: 50px;
+	line-height: 20px;
+	font-family: 'BatmanForeverOutline';
+}
+span {
+	color: rgb(255, 0, 0);
+}
+
+#segundo {
+	color: rgb(255, 255, 0);
+}
+
+p{
+	line-height: 20px;
+	max-width: 500px;
+}
+
+a{
+	color: white;
+	font-family: 'BatmanForeverOutline';
+}
+
+a:hover{
+	color: rgb(255, 255, 0);
+	font-family: 'BatmanForeverAlternate';
+	transition: 0.3s;
+}
+
+#batmania{
+	border: 2px solid rgb(255, 255, 0);
+	padding: 20px;
+	border-radius: 5px;
+}
+@keyframes animacao-btn{
+	from{
+		right: 0;
+		left: 0;
+	}
+
+	to{
+		right: 15px;
+		left: 15px;
+	}
+}
+#batmania:hover{
+	background-color: rgb(255, 255, 0);
+	font-family: 'BatmanForeverAlternate';
+	transition: 0.2s;
+	color: rgb(255, 0, 0);
+	position: relative;
+	animation-name: animacao-btn;
+	animation-duration: 0.3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+input[type="submit"]{
+	height: 50px;
+	width: 50%;
+	background-color: rgb(255, 0, 0);
+	padding: 15px;
+	text-align: center;
+	color: white;
+	font-family: 'BatmanForeverAlternate';
+	font-weight: bold;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	
+}
+
+
+input {
+	margin-top: 20px;
+	height: 20px;
+	padding: 15px;
+	border-radius: 5px;
+	border: none;
+}
+h1#the:hover{
+	color: rgb(255, 0, 0);
+	cursor: pointer;
+}
+h1#batman:hover{
+	color: rgb(255, 255, 0);
+	cursor: pointer;
+}

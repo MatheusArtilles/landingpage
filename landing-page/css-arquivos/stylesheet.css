@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'BatmanForeverAlternate';
+    src: url('../fonts/BatmanForeverAlternate.woff2') format('woff2'),
+        url('../fonts/BatmanForeverAlternate.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    /*font-display: swap;*/
+}
+
+@font-face {
+    font-family: 'BatmanForeverOutline';
+    src: url('../fonts/BatmanForeverOutline.woff2') format('woff2'),
+        url('../fonts/BatmanForeverOutline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    /*font-display: swap;*/
+}
+
